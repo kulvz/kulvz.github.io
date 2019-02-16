@@ -1,0 +1,45 @@
+body {
+	background-color: #fbf7db
+}
+h1 {
+	color: #a059d1;
+	text-transform: uppercase;
+	font-family: Avenir;
+	text-align: center;
+}
+p { 
+	font-family: Avenir;
+	font-size: 22;
+	color: #a059d1;
+	text-align: center;
+}
+ul {
+	font-family: Avenir;
+	font-size: 14;
+	color: #a059d1;
+	text-align: left;
+}
+img { 
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	font-family: Avenir;
+	font-size: 14;
+	color: #a059d1;
+	text-align: center;
+}
+#slogan {
+	font-family: Georgia;
+	color: gray;	
+	text-align: center;
+	font-size: 45
+}
+#second {
+	font-family: Georgia;
+	color: black;
+	text-align: center;
+	font-size: 45;
+	font-style: italic;
+}	
