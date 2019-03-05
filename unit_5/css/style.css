@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+body {
+	background-color: #fbf7db;
+	font-family: Avenir Next, sans-serif;
+	text-align: center;
+	color: #a059d1;
+}
+h3,h4 {
+	font-family: 'Domine', serif;
+	color: gray;
+}
+img {
+	align-content: right;
+}
+.left,.right{
+	width: 50%;
+	float: left;
+}
+.left {
+	position: sticky;top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+#social {
+	width: 25px;
+}
