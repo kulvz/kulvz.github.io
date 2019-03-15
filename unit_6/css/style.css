@@ -5,14 +5,27 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: #fbf7db;
+	background-color: #BF9CD7;
 	font-family: Avenir Next, sans-serif;
 	text-align: center;
 	color: #a059d1;
 }
+h1 {
+	font-size: 40px;
+	color: #f8f2fc;
+	text-shadow: 3px 3px #5D1B0F;
+}
+h2 {
+	font-size: 30px;
+	color: #f8f2fc;
+	text-shadow: 4px 4px #5D1B0F;
+}
 h3,h4 {
-	font-family: 'Domine', serif;
-	color: gray;
+	font-family: Avenir Next, sans-serif;
+	color: #ffffff;
+	font-variant: small-caps;
+	letter-spacing: .2em;
+	font-weight: bold;
 }
 h3 {
 	font-size: 24px;
@@ -33,12 +46,26 @@ label{
 	margin-top: 10px;
 	padding: 10px;
 }
+span{
+	padding: 0 .2em;
+	background-color: #fbf7db;
+	color: #d0a6ed;
+}
+#hero {
+	background: transparent url(../images/kulvz.jpg) no-repeat center center;
+	background-size: 100% auto;
+	height: 56.25vw; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .left,.right{
 	width: 50%;
 	float: left;
 }
 .left {
-	position: sticky;top: 0;
+	position: sticky;-webkit-position:sticky; top: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -57,8 +84,16 @@ label{
 	align-items: center;
 	flex-direction: column;
 	min-height: 100vh;
+	color: #ffffff;
 }
 .project {
 	padding-bottom: 60px;
-
+}
+.info-text {
+	line-height: 2;
+}
+.info-text span{
+	background: #d0a6ed;
+	color: #ffffff;
+	font-size: 20px;
 }
