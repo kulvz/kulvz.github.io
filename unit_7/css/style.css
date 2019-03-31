@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #BF9CD7;
+	font-family: Avenir Next, sans-serif;
+	text-align: center;
+	color: #a059d1;
+}
+h1 {
+	font-size: 100px;
+	color: #f8f2fc;
+	text-shadow: 5px 5px #5D1B0F;
+}
+h2 {
+	font-size: 50px;
+	color: #f8f2fc;
+	text-shadow: 10px 10px #5D1B0F;
+}
+h3,h4 {
+	font-family: Avenir Next, sans-serif;
+	color: #ffffff;
+	font-variant: small-caps;
+	letter-spacing: .2em;
+	font-weight: bold;
+}
+h3 {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+img {
+	display: block; width: 100%;
+}
+p{
+	padding-bottom: 20px;
+	line-height: 1.5;
+	font-size: 16px;
+}
+label{
+	background-color: #a059d1;
+	color:  #fbf7db;
+	margin-top: 10px;
+	padding: 10px;
+}
+span{
+	color: #ffffff;
+	text-shadow: 4px 4px #5D1B0F;
+}
+blurb{
+	padding: 0 .2em;
+	background-color: #fbf7db;
+	color: #d0a6ed;
+}
+#hero {
+	background: transparent url(../images/kulvz.jpg) no-repeat center center;
+	background-size: 100% auto;
+	height: 56.25vw; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*.navi {
+	text-decoration: none;
+	font-weight: 20px;
+	color: #ffffff;
+}*/
+.navi{
+	  background-color: black;
+	  opacity: .3;
+  	color: white;
+ 	 padding: 14px 25px;
+  	text-align: center; 
+ 	 text-decoration: none;
+  	display: inline-block;
+}
+.left,.right{
+	width: 50%;
+	float: left;
+}
+.left {
+	position: sticky;-webkit-position:sticky; top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	padding-right: 0px;
+}
+.social {
+	width: 25px;
+	display: inline-block;
+}
+.clear:after{content:""; display: block; clear: both;}
+#intro-content, #contact-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #ffffff;
+	padding: 20px;
+}
+.intro-font{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 20px
+}
+.project {
+	padding-bottom: 60px;
+}
+.info-text {
+	line-height: 2;
+}
+.info-text blurb{
+	background: #d0a6ed;
+	color: #ffffff;
+	font-size: 20px;
+}
