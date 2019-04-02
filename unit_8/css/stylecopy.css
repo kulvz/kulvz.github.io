@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+body {
+	background-color: #fbf7db;
+	font-family: Avenir Next, sans-serif;
+	text-align: center;
+	color: #a059d1;
+}
+h3,h4 {
+	font-family: 'Domine', serif;
+	color: gray;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+.left,.right{
+	width: 50%;
+	float: left;
+}
+.left {
+	position: sticky;top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+#social {
+	width: 25px;
+}

@@ -23,7 +23,7 @@ h2 {
 h3,h4 {
 	font-family: Avenir Next, sans-serif;
 	color: #ffffff;
-	font-variant: small-caps;
+
 	letter-spacing: .2em;
 	font-weight: bold;
 }
@@ -55,6 +55,9 @@ blurb{
 	background-color: #fbf7db;
 	color: #d0a6ed;
 }
+footer{
+	color: #ffffff;
+}
 #hero {
 	background: transparent url(../images/cover3.png) no-repeat center center;
 	background-size: 100% auto;
@@ -70,13 +73,12 @@ blurb{
 	color: #ffffff;
 }*/
 .navi{
-	  background-color: black;
-	  opacity: .3;
   	color: white;
  	 padding: 14px 25px;
   	text-align: center; 
  	 text-decoration: none;
   	display: inline-block;
+  	font-weight: bold;
 }
 .left,.right{
 	width: 50%;
@@ -112,12 +114,17 @@ blurb{
 }
 .project {
 	padding-bottom: 60px;
+	background: ##d8c5e5;
 }
 .info-text {
 	line-height: 2;
+	padding: 20px;
 }
 .info-text blurb{
 	background: #d0a6ed;
 	color: #ffffff;
 	font-size: 20px;
+}
+#hello{
+	font-size: 25px;
 }

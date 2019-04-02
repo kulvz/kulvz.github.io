@@ -9,51 +9,55 @@ body {
 	font-family: Avenir Next, sans-serif;
 	text-align: center;
 	color: #a059d1;
+	font-size: 20px;
 }
 h1 {
-	font-size: 100px;
+	font-size: 5em;
 	color: #f8f2fc;
-	text-shadow: 5px 5px #BF9CD7;
+	text-shadow: .05em .05em #BF9CD7;
 }
 h2 {
-	font-size: 50px;
+	font-size: 2.5em;
 	color: #f8f2fc;
-	text-shadow: 10px 10px #5D1B0F;
+	text-shadow: .1em .1em #5D1B0F;
 }
 h3,h4 {
 	font-family: Avenir Next, sans-serif;
 	color: #ffffff;
-	font-variant: small-caps;
+
 	letter-spacing: .2em;
 	font-weight: bold;
 }
 h3 {
-	font-size: 24px;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	font-size: 1.2em;
+	padding-top: 1em;
+	padding-bottom: .5em;
 }
 img {
 	display: block; width: 100%;
 }
 p{
-	padding-bottom: 20px;
+	padding-bottom: 1em;
 	line-height: 1.5;
-	font-size: 16px;
+	font-size: .8em;
 }
 label{
 	background-color: #a059d1;
 	color:  #fbf7db;
-	margin-top: 10px;
-	padding: 10px;
+	margin-top: .5em;
+	padding: .5em;
 }
 span{
 	color: #ffffff;
-	text-shadow: 4px 4px #5D1B0F;
+	text-shadow: .1em .1em #5D1B0F;
 }
 blurb{
 	padding: 0 .2em;
 	background-color: #fbf7db;
 	color: #d0a6ed;
+}
+footer{
+	color: #ffffff;
 }
 #hero {
 	background: transparent url(../images/cover3.png) no-repeat center center;
@@ -70,13 +74,12 @@ blurb{
 	color: #ffffff;
 }*/
 .navi{
-	  background-color: black;
-	  opacity: .3;
   	color: white;
- 	 padding: 14px 25px;
+ 	padding: .7em 1.25em;
   	text-align: center; 
- 	 text-decoration: none;
+ 	text-decoration: none;
   	display: inline-block;
+  	font-weight: bold;
 }
 .left,.right{
 	width: 50%;
@@ -89,10 +92,10 @@ blurb{
 	align-items: center;
 	min-height: 100vh;
 	flex-direction: column;
-	padding-right: 0px;
+	padding-right: 0%;
 }
 .social {
-	width: 25px;
+	width: 1.25em;
 	display: inline-block;
 }
 .clear:after{content:""; display: block; clear: both;}
@@ -103,21 +106,45 @@ blurb{
 	flex-direction: column;
 	min-height: 100vh;
 	color: #ffffff;
-	padding: 20px;
+	padding: 1em;
 }
 .intro-font{
-	font-size: 35px;
+	font-size: 1.75em;
 	font-weight: bold;
-	padding: 20px
+	padding: 1em;
 }
 .project {
-	padding-bottom: 60px;
+	padding-bottom: 3em;
+	background: ##d8c5e5;
 }
 .info-text {
 	line-height: 2;
+	padding: 1em;
 }
 .info-text blurb{
 	background: #d0a6ed;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 1em;
+}
+#hello{
+	font-size: 1.25em;
+}
+@media screen and (max-width: 500px){
+	body{
+		font-size: 10px;
+	}
+	.left, .right {
+		float: none;
+		width: auto;
+		display: block;
+	}
+	#intro-content, #contact-content{
+		float: none;
+		width: auto;
+		position: sticky;top:0;
+	}
+	img{
+		float:none;
+		display: block;
+	}
 }
