@@ -25,7 +25,6 @@ h2 {
 h3,h4 {
 	font-family: Avenir Next, sans-serif;
 	color: #ffffff;
-
 	letter-spacing: .2em;
 	font-weight: bold;
 }
@@ -33,6 +32,10 @@ h3 {
 	font-size: 1.2em;
 	padding-top: 1em;
 	padding-bottom: .5em;
+}
+h5{
+	font-size: 1.5em;
+	font-weight: normal;
 }
 img {
 	display: block; width: 100%;
@@ -83,7 +86,8 @@ footer{
 	float: left;
 }
 .left {
-	position: sticky;-webkit-position:sticky; top: 0;
+	-webkit-position:sticky;
+	position: sticky; top: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -95,9 +99,10 @@ footer{
 	background-color: black;
 }
 .social {
-	width: 2.5em;
-	height: 2.5em;
+	width: 2em;
+	height: 2em;
 	display: inline-block;
+	margin-bottom: 1em;
 }
 .clear:after{content:""; display: block; clear: both;}
 #intro-content, #contact-content{
@@ -115,24 +120,36 @@ footer{
 	padding: 1em;
 }
 .project {
-	padding-bottom: 3em;
-}
-.info-text {
-	line-height: 2;
+	/*padding-bottom: 3em;*/
+	/*position: relative;*/
+	background-color: #e9c9ff;
 	padding: 1em;
 }
-.info-text blurb{
-	background: #d0a6ed;
-	color: #ffffff;
-	font-size: 1em;
+.project:nth-child(even){
+	background-color: #432557;
+	color: white;
+}
+.project-info{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+/*.project-info {
+	/*position: absolute; bottom: 0; left: 0; width: 100%;*/ 
+	/*background-color: rgba(160, 89, 209, 0.5); 
+	padding: 1em;
+	color: #ffffff;*/
 }
 #hello{
-	font-size: 1.3em;
-}
+	font-size: 2em;
+	padding-top: 1em;
+	}
 .end {
 	text-shadow: .1em .1em #5D1B0F;
+	letter-spacing: 0em;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: -1em;
 }
-
 @media screen and (max-width: 860px){
 	h1 {
 		font-size: 3em;
@@ -170,6 +187,10 @@ footer{
 	}
 	#hello {
 		font-size: 1.3em;
+	}
+	.end {
+		font-size: 1.2em;
+		margin-top: -.75em;
 	}
 	}
 
